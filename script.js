@@ -27,7 +27,7 @@ const swiper = new Swiper('.swiper', {
         },
         // when window width is >= 480px
         1000: {
-        speed: 1000,
+        speed: 10000,
         slidesPerView: 3,
         slidesPerGroup: 3,
         allowSlidePrev: true,
