@@ -1,0 +1,62 @@
+.customer {
+    width: 100%;
+    height: 600px;
+
+    h1 {
+        font-size: 36px;
+        color: $black;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .blue {
+        border: 2px solid $blue;
+        background: $blue;
+        width: 64px;
+        height: 2px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .flex {
+        width: 65%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 100px;
+    }
+
+    p {
+        border: 1px solid $blue;
+        background: $blue;
+        color: $white;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .avatar {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        background: url(/pictures/avatar_2_u231.png);
+        background-size: cover;
+        background-position: center;
+        margin-right: 40px;
+    }
+
+    .secondsec {
+        margin-top: 20px;
+        width: 250px;
+    }
+
+    .customerdisplay {
+        width: 90%;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+    }
+}

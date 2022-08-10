@@ -1,0 +1,30 @@
+.social {
+    height: 80px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    .wifi {
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        color: $orange;
+    }
+
+    p {
+        width: 70%;
+        margin-top: 5px;
+        font-size: 0.8em;
+        word-break: break;
+    }
+
+    i {
+        transform: rotate(45deg);
+        color: $orange;
+    }
+
+}

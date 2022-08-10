@@ -1,0 +1,179 @@
+@media (max-width: 768px) {
+
+    #burger {
+        cursor: pointer;
+        display: flex;
+        margin-top: 12px;
+        margin-left: -105px;
+    }
+
+    .header {
+
+        a,
+        img {
+            display: none;
+        }
+
+    }
+
+    .social {
+        display: none;
+    }
+
+
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+
+        .display {
+            width: 100%;
+            margin-top: 70px;
+        }
+
+        .download,
+        img {
+            margin: auto;
+            margin-bottom: 40px;
+            margin-top: -20px;
+        }
+
+        .form {
+            margin: auto;
+            margin-bottom: 50px;
+        }
+
+        img {
+            margin-top: 10px;
+        }
+    }
+
+    .tabs {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+
+        .button {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        .tabstext {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .social {
+            width: 0px;
+            height: 0px;
+        }
+    }
+
+    .cheshire {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            margin-top: 70px;
+            margin-bottom: -100px;
+        }
+
+        .divider {
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+
+        .erat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            p {
+                margin-bottom: 30px;
+            }
+        }
+
+        .logo {
+            margin-bottom: 70px;
+            margin-left: 1px;
+        }
+    }
+
+    .thisisawesome {
+        padding: 10px;
+    }
+
+    h1,
+    img {
+        margin-bottom: 15px;
+    }
+
+    .bpe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricing {
+        height: 100%;
+        padding-top: 100px;
+        padding-bottom: 80px;
+
+        .pricingoptions {
+            p {
+                margin-bottom: -30px;
+            }
+        }
+    }
+
+    .contactus {
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+
+        .contact {
+            p {
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .swiper {
+        .blue-line {
+            margin-top: 50px;
+        }
+
+        h1 {
+            margin-left: 30px;
+        }
+
+        img {
+            margin-left: 140px;
+        }
+
+        p {
+            margin-top: -100px;
+        }
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+}

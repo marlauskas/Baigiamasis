@@ -1,0 +1,26 @@
+footer {
+    width: 100%;
+    height: 130px;
+    background: $dark;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+    .fb {
+        width: 13px;
+        height: 25px;
+    }
+
+    p {
+        color: #75767a;
+        font-size: 18px;
+    }
+
+    .wifi {
+        cursor: pointer;
+        width: 24px;
+        height: 20px;
+    }
+
+}

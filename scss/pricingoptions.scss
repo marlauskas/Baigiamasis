@@ -1,0 +1,104 @@
+.pricing {
+    width: 100%;
+    height: 883px;
+    background-color: $blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pricingoptions {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 60px;
+
+    h1 {
+        margin-top: -80px;
+        font-size: 36px;
+        color: $white;
+        ;
+    }
+
+    img {
+        padding: 30px;
+        color: $green;
+    }
+
+    p {
+        color: $white;
+        margin-bottom: 30px;
+    }
+}
+
+.bpe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+
+    .divider {
+        width: 300px;
+        height: 2px;
+        border: 3px solid;
+        background: $green;
+        color: $green;
+    }
+
+    .divider2 {
+        background: $green;
+        padding: 10px;
+        color: $white;
+
+    }
+
+
+    li {
+        width: 300px;
+        background: $white;
+        color: #86878B;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .basic {
+        padding: 10px;
+        height: 200px;
+        text-align: center;
+        background: $dark;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+
+        .h5 {
+            font-size: 20px;
+        }
+
+        .monthly {
+            color: #86878B;
+            font-size: 14px;
+        }
+
+        p {
+            color: $white;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .dollarlogo {
+            font-size: 55px;
+        }
+
+        .lorem {
+            margin-bottom: 80px;
+        }
+
+    }
+}
+
+.dollar {
+    font-size: 94px;
+    color: $white;
+}

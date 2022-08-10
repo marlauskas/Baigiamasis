@@ -1,0 +1,44 @@
+.swiper {
+    width: 100%;
+    height: 610px;
+
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .blue-line {
+        width: 64px;
+        border: 1px solid $blue;
+        background: $blue;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+
+    p {
+        width: 270px;
+        margin-bottom: 20px;
+        border: 1px solid $blue;
+        border-radius: 8px;
+        padding: 15px;
+        font-size: 16px;
+        color: $white;
+        background: $blue;
+    }
+
+    img {
+        margin-right: 180px;
+    }
+}

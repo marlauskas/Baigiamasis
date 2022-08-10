@@ -1,0 +1,36 @@
+.header {
+    height: 80px;
+    width: 100%;
+    background: $dark;
+    color: $white;
+    position: fixed;
+    z-index: 100;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    ul {
+        display: flex;
+        gap: 40px;
+        margin-top: 15px;
+    }
+
+    img {
+        width: 120px;
+        height: 52px;
+        margin-top: 15px;
+    }
+
+    a {
+        color: #a4a6ac;
+    }
+
+    a:hover {
+        color: $white;
+    }
+}
