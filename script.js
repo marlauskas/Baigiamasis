@@ -1,33 +1,27 @@
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
     direction: 'horizontal',
     loop: true,
     spaceBetween: 20,
-  
-    // If we need pagination
     pagination: {
       el: '.swiper-pagination'
     },
-  
-    // Navigation arrows
+
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
     },
-    // Responsive breakpoints
     breakpoints: {
-        // when window width is >= 320px
         768: {
-        speed: 10000,
+        speed: 5000,
         slidesPerView: 1,
         slidesPerGroup: 1,
         spaceBetween: 20,
         allowSlidePrev: true,
         allowSlideNext: true
         },
-        // when window width is >= 480px
+       
         1000: {
-        speed: 10000,
+        speed: 5000,
         slidesPerView: 3,
         slidesPerGroup: 3,
         allowSlidePrev: true,
