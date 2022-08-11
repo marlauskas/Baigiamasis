@@ -35,6 +35,6 @@ var pnumber = document.querySelectorAll("input")[2]
 var getstarted = document.querySelectorAll("button")[1]
 var send = document.querySelectorAll("button")[5]
 
-if(fname && fname.value) {
+if(fname && fname.value ) {
        alert ("Jūsų informacija sėkmingai pateikta");
     }
