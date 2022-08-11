@@ -12,7 +12,7 @@ const swiper = new Swiper('.swiper', {
     },
     breakpoints: {
         768: {
-        speed: 5000,
+        speed: 1000,
         slidesPerView: 1,
         slidesPerGroup: 1,
         spaceBetween: 20,
@@ -21,7 +21,7 @@ const swiper = new Swiper('.swiper', {
         },
        
         1000: {
-        speed: 5000,
+        speed: 1000,
         slidesPerView: 3,
         slidesPerGroup: 3,
         allowSlidePrev: true,
